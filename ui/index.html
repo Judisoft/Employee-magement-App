@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Employee Manager</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <!-- Navbar Start-->
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light " style="background-color: #e3f2fd;">
+            <div class="container">
+              <a class="navbar-brand" href="#">NodeJS CRUD App</a>
+              <a class="login-btn" href="#" id="login-btn" data-bs-toggle="modal" data-bs-target="#loginModal">Signin</a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+        <!-- Jumbotron start -->
+        <div class="jumbotron jumbotron-home jumbotron-fluid pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <h1 class="display-4">CRUD Application with NodeJS</h1>
+                        <p class="lead">In this poject, I showcase my NodeJS, Vanilla JS and API dev & implementation skills</p>
+                        <div class="d-flex justify-start pt-5">
+                            <div class="p-2">
+                                <button type="button" class="btn btn-lg btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Get Started
+                                </button>
+                            </div>
+                            <div class="p-2">
+                                <a href="employees.html" class="btn btn-lg text-light text-decoration-underline">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <img src="./assets/img/team1.avif" class="jmb-img" alt="team management image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Jumbotron End -->
+        <!-- Project Description -->
+        <div class="container">
+            <div class="row">
+                <div class="description">
+                    <p class="description-text">
+                        The Employee Management CRUD (Create, Read, Update, Delete) 
+                        application is a web-based system developed using Node.js, MongoDB,
+                        Express.js, HTML, CSS, Axios, and Vanilla JavaScript. The primary
+                        goal of this application is to provide a user-friendly interface 
+                        for managing employee information within an organization.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Project Description End -->
+        <!-- CRUD Start -->
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <h4 class="desc">Project Description</h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <h4 class="desc">Key Features</h4>
+                        <div class="d-flex flex-start">
+                            <div class="p-2">
+                                <div class="feature-num">
+                                    1
+                                </div>
+                            </div>
+                            <div class="p-2">
+                                <h4 class="desc-title">Employee Database</h4>
+                                <p>
+                                    Employee Database: The application allows users 
+                                    to create, store, and manage employee records within 
+                                    a MongoDB database. Each employee record, in this project, 
+                                    includes details such as name, surname, and 
+                                    department.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-start">
+                            <div class="p-2">
+                                <div class="feature-num">
+                                    2
+                                </div>
+                            </div>
+                            <div class="p-2">
+                                <h4 class="desc-title">CRUD Functionality</h4>
+                                <p>
+                                    The application provides Create, Read, Update, 
+                                    and Delete operations for managing employee data. 
+                                    Users can add new employees, view the existing 
+                                    records, update employee information, and delete 
+                                    records as needed. These operations are performed 
+                                    through intuitive user interfaces, making it easy 
+                                    to manage employee data efficiently.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-start">
+                            <div class="p-2">
+                                <div class="feature-num">
+                                    3
+                                </div>
+                            </div>
+                            <div class="p-2">
+                                <h4 class="desc-title">User Authentication and Authorization</h4>
+                                <p>
+                                    To ensure data security, the application includes user authentication and authorization features. Users are required to authenticate themselves using a username and password to access the system. Different user roles and permissions can be defined to control access levels and restrict certain functionalities based on the user's role.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-start">
+                            <div class="p-2">
+                                <div class="feature-num">
+                                    4
+                                </div>
+                            </div>
+                            <div class="p-2">
+                                <h4 class="desc-title">Responsive User Interface</h4>
+                                <p>
+                                    The application features a responsive user interface built with HTML and CSS, ensuring a consistent and user-friendly experience across different devices and screen sizes. The interface is designed to be intuitive and visually appealing, allowing users to navigate the system easily and perform necessary operations efficiently.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-start">
+                            <div class="p-2">
+                                <div class="feature-num">
+                                    5
+                                </div>
+                            </div>
+                            <div class="p-2">
+                                <h4 class="desc-title">Integration with Axios and Vanilla JavaScript</h4>
+                                <p>
+                                    Axios, a popular JavaScript library, is integrated into the application to handle HTTP requests and facilitate communication between the frontend and backend. Vanilla JavaScript is used to enhance the interactivity of the user interface, enabling dynamic updates and smooth user interactions.
+                                </p>
+                            </div>
+                        </div>
+                        <p>
+                            Overall, the Employee Management CRUD application provides a comprehensive solution for managing employee data within an organization. It leverages the power of Node.js, MongoDB, Express.js, HTML, CSS, Axios, and Vanilla JavaScript to deliver a reliable, scalable, and user-friendly system for efficient employee information
+                        </p>
+                    </div>
+                    <p class="text-center"><a>Source code on Github</a></p>
+                </div>
+            </div>
+        <!-- CRUD End -->
+        <!--Register Modal Start-->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content modal-bg">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5 text-light" id="staticBackdropLabel">Create Account</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form id="signUpForm">
+                    <div class="modal-body">
+                        <div id="validationErrors" class="validation-errors"></div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" name="name" id="floatingInput" placeholder="Name">
+                            <label for="floatingInput">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" name="surname" id="floatingInput" placeholder="Surname">
+                            <label for="floatingInput">Surname</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" name="email" id="floatingInput" placeholder="Email">
+                            <label for="floatingInput">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" name="password" id="floatingInput" placeholder="Password">
+                            <label for="floatingInput">Password</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" name="password-confirm" id="floatingInput" placeholder="Confirm password">
+                            <label for="floatingInput">Confirm Password</label>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="submit" class="btn btn-lg btn-success">Register</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+        <!-- Register Modal End -->
+        <!--Login Modal Start-->
+        <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content modal-bg">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5 text-light" id="staticBackdropLabel">Sign In</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form id="signInForm">
+                    <div class="modal-body">
+                        <div id="validationErrors" class="validation-errors"></div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" name="email" id="floatingInput" placeholder="Email">
+                            <label for="floatingInput">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" name="password" id="floatingInput" placeholder="Password">
+                            <label for="floatingInput">Password</label>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="submit" class="btn btn-lg btn-success">Login</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+        <!-- Login Modal End -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="./js/script.js" async defer></script>
+    </body>
+</html>
