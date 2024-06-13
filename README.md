@@ -31,8 +31,8 @@ This is a simple CRUD (Create, Read, Update, Delete) application for managing em
 
 1. **Clone the repository:**
 
-   git clone https://github.com/yourusername/employee-management-crud.git
-   cd employee-management-crud
+   [git clone https://github.com/yourusername/employee-management-crud.git](https://github.com/Judisoft/Employee-management-App)
+   cd Employee-management-App
 
 2. **Install dependencies:**
    npm install
