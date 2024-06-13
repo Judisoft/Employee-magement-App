@@ -32,18 +32,19 @@ This is a simple CRUD (Create, Read, Update, Delete) application for managing em
 1. **Clone the repository:**
 
    [git clone https://github.com/yourusername/employee-management-crud.git](https://github.com/Judisoft/Employee-management-App)
+   
    cd Employee-management-App
 
-2. **Install dependencies:**
+3. **Install dependencies:**
    npm install
 
-3. **Set up environment variables:**
+4. **Set up environment variables:**
    Create a .env file in the root directory and add the following variables:
    PORT=3000
    MONGODB_URI=mongodb://localhost:27017/employeeDB
    Adjust the MONGODB_URI as necessary for your MongoDB setup.
 
-4. **Start the application:**
+5. **Start the application:**
    npm start
 
 
